@@ -5,9 +5,9 @@ const NewListings = (props)=>{
             <h3 className="new-section__title">
                 See Homes In Plover, WI
             </h3>
-            <a href="/" className="new-section__view-all">
+            <p className="new-section__view-all">
                 View All Homes
-            </a>
+            </p>
             <div className="new-section__property-row">
                 <div className="new-section__property-inner">
                     <div className="new-section__property-item">
@@ -20,9 +20,9 @@ const NewListings = (props)=>{
             <h3 className="new-section__title">
                 See Rentals In Plover, WI
             </h3>
-            <a href="/" className="new-section__view-all">
+            <p className="new-section__view-all">
                 View All Rentals
-            </a>
+            </p>
             <div className="new-section__property-row">
                 <div className="new-section__property-inner">
                     <div className="new-section__property-item">

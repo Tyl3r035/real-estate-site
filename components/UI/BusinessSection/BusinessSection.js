@@ -1,3 +1,4 @@
+import Link from 'next/link'
 
 const BusinessSection = (props)=>{
     return(
@@ -7,14 +8,18 @@ const BusinessSection = (props)=>{
                 <h3 className="business-section__title">
                     Manage Your Rentals
                 </h3>
-                <a href="/" className="business-section__col-link">Learn More</a>
+                <Link href="/index">
+                <a  className="business-section__col-link">Learn More</a>
+                </Link>
             </div>
             <div className="business-section__business-col business-section__business-col--advertise">
             <div className="business-section__col-dark"/>
                 <h3 className="business-section__title">
                     Advertise with Us
                 </h3>
-                <a href="/" className="business-section__col-link">Learn More</a>
+                <Link href="/index">
+                <a  className="business-section__col-link">Learn More</a>
+                </Link>
             </div>
         </section>
     )

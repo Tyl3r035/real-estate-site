@@ -1,3 +1,4 @@
+import Link from 'next/Link';
 
 const Header = (props)=>{
     return(
@@ -6,31 +7,45 @@ const Header = (props)=>{
                 Logo
             </div>
             <nav className="nav-fluid">
-                <a href="/" className="nav-fluid__link">
+                <Link href="/index">
+                <a className="nav-fluid__Link">
                     Buy
                 </a>
-                <a href="/" className="nav-fluid__link">
+                </Link>
+                <Link href="/index">
+                <a className="nav-fluid__Link">
                     Rent
                 </a>
-                <a href="/" className="nav-fluid__link">
+                </Link>
+                <Link href="/index">
+                <a className="nav-fluid__Link">
                     Agent
                 </a>
-                <a href="/" className="nav-fluid__link">
+                </Link>
+                <Link href="/index">
+                <a className="nav-fluid__Link">
                     Sell
                 </a>
-                <a href="/" className="nav-fluid__link">
+                </Link>
+                <Link href="/index">
+                <a className="nav-fluid__Link">
                     Manage Rentals
                 </a>
-                <a href="/" className="nav-fluid__link">
+                </Link>
+                <Link href="/index">
+                <a className="nav-fluid__Link">
                     Advertise
                 </a>
-                <a href="/" className="nav-fluid__link">
+                </Link>
+                <Link href="/index">
+                <a className="nav-fluid__Link">
                     Mortgage
                 </a>
+                </Link>
             </nav>
             <div className="btn-fluid">
-                <a href="/" className="btn-fluid__log-in">Log In</a>
-                <a href="/" className="btn-fluid__sign-up">Sign Up</a>
+                <a className="btn-fluid__log-in">Log In</a>
+                <a className="btn-fluid__sign-up">Sign Up</a>
             </div>
             <div className="menu-btn">
                 <div className="menu-bar"/>
