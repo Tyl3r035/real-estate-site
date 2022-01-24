@@ -1,0 +1,48 @@
+.new-section{
+    position: relative;
+    background: transparent;
+    margin: 100px 0;
+    padding: 0 20px;
+    &__title{
+        color: #333;
+        font-size: 1.8rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+    }
+    &__view-all{
+        color: rgb(66, 66, 248);
+        margin-bottom: 2rem;
+        padding-left: .5rem;
+        font-size: 1.1rem;
+        &:hover{
+            filter: brightness(70%);
+            text-decoration: underline;
+        }
+    }
+    &__property-row{
+        display: flex;
+        flex-wrap: nowrap;
+        position: relative;
+        width: 100%;
+        margin-top: 2.5rem;
+        padding-left: .5rem;
+        overflow: hidden;
+        overflow-x: scroll;
+        &::-webkit-scrollbar{
+            display: none;
+        }
+    }
+    &__property-inner{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+    }
+    &__property-item{
+        width: 200px !important;
+        height: 100px;
+        background: gray;
+        margin: 0 20px 0 0;
+    }
+
+}

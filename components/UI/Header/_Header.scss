@@ -1,0 +1,93 @@
+#header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    color: rgba(0, 0, 0, .9);
+    border-bottom: 0.5px solid #eee;
+    z-index: 10;
+    .logo{
+        width: 130px;
+        flex-shrink: 1;
+    }
+    .nav-fluid{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 1;
+        &__link{
+            margin: 0 10px;
+            font-size: .8rem;
+            cursor: pointer;
+            transition: .3s ease-in-out;
+            &:hover{
+                color: red;
+            }
+        }
+    }
+    .btn-fluid{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 130px;
+        flex-shrink: 1;
+        &__log-in{
+            margin-right: 10px;
+            font-size: .8rem;
+            opacity: 1;
+            transition: opacity .3s ease-in-out;
+            &:hover{
+                opacity: .7;
+            }
+        }
+        &__sign-up{
+            font-size: .8rem;
+            border-radius: 25px;
+            border:.5px solid rgb(217, 34, 40);
+            background: rgb(217, 34, 40);
+            color: white;
+            padding: 9px 15px;
+            cursor: pointer;
+            transition: all .3s ease-in-out;
+            &:hover{
+                background: rgb(126, 9, 12);
+            }
+        }
+    }
+    .menu-btn{
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 16px;
+        cursor: pointer;
+        .menu-bar{
+            width: 20px;
+            height: 2px;
+            border-radius: 1px;
+            background: #000;
+        }
+        &:hover .menu-bar{
+            background: #171717;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 820px){
+    .nav-fluid{
+        display: none !important;
+    }
+    .btn-fluid{
+        display: none !important;
+    }
+    .menu-btn{
+        display: flex !important;
+    }
+}

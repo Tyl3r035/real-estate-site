@@ -1,0 +1,23 @@
+.main-categories{
+    position: relative;
+    margin: 0;
+    &__title{
+        font-size: 2rem;
+        color: #333;
+        margin: 2rem;
+        text-align: center;
+    }
+    &__row{
+        display: flex;
+        justify-content: stretch;
+        align-items: flex-start;
+    }
+    &__col{
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 400px;
+        background: #fafafa;
+    }
+}

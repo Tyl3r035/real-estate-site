@@ -1,0 +1,18 @@
+@use 'reset';
+@use '../components/UI/Header/Header';
+@use '../components/UI/TopSection/TopSection';
+@use '../components/UI/NewEditions/NewEditions';
+@use '../components/UI/BusinessSection/BusinessSection';
+@use '../components/UI/MainCategories/MainCategories';
+@use  '../components/UI/Footer/Footer';
+
+a{
+    text-decoration: none;
+    color: initial;
+}
+body, html{
+    font-family: 'Lato', sans-serif;
+    color: rgba(0, 0, 0, 0.9);
+    background: rgb(252, 252, 252);
+    scroll-behavior: smooth;
+}

@@ -1,0 +1,121 @@
+.business-section{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    &__business-col{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-grow: 1;
+        &--border{
+            margin-right: 2px;
+        }
+        &--rentals{
+            background: url(../../../public/img/real-estate-home-cover-manage-rentals.jpg) no-repeat center bottom;
+            background-size: 100%;
+        }
+        &--advertise{
+            background: url(../../../public/img/real-estate-advertise.jpg) no-repeat center bottom;
+            background-size: 100%;
+        }
+    }
+    &__col-dark{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.3);
+    }
+    &__title{
+        font-size: 2rem;
+        font-weight: 600;
+        text-align: center;
+        max-width: 450px;
+        margin-bottom: 1rem;
+        color: white;
+        z-index: 2;
+    }
+    &__col-link{
+        background: #d92228;
+        color: white;
+        padding: 8px 20px;
+        border-radius: 25px;
+        margin-top: 1rem;
+        font-size: 1rem;
+        z-index: 2;
+    }
+}
+
+
+
+
+
+@media(max-width: 1160px){
+    .business-section{
+        height: 350px;
+    }
+    // &__business-col{
+
+    // }
+}
+@media(max-width: 995px){
+    .business-section{
+        height: 300px;
+    }
+}
+@media(max-width: 860px){
+    .business-section{
+        height: 250px;
+        &__title{
+            font-size: 1.5rem;
+        }
+        &__col-link{
+            font-size: .8rem;
+            margin-top: 0;
+        }
+    }
+}
+@media(max-width: 710px){
+    .business-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: auto;
+        &__business-col{
+            width: 100%;
+            height: 400px;
+            margin: 0;
+            &--rentals, &--advertise{
+                background-size: cover;
+            }
+            &--rentals{
+                margin-bottom: 2px !important;
+            }
+        }
+    }
+}
+@media(max-width: 610px){
+    .business-section__business-col{
+        height: 350px;
+        overflow-y: hidden;
+        &--advertise{
+            background: url(../../../public/img/real-estate-advertise.jpg) no-repeat center center;
+            background-size: 100%;
+        }
+    }
+}
+@media(max-width: 525px){
+    .business-section__business-col{
+        height: 300px;
+    }
+}
+@media(max-width: 450px){
+    .business-section__business-col{
+        height: 270px;
+    }
+}
