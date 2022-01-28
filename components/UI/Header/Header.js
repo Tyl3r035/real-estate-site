@@ -3,10 +3,12 @@ const Header = (props)=>{
     return(
         <header id="header">
             <div className="logo">
-                Logo
+                <a href="/">
+                    Logo
+                </a>
             </div>
             <div className="nav-fluid">
-                <a className="nav-fluid__Link">
+                <a href="/buy" className="nav-fluid__Link">
                     Buy
                 </a>
                 <a className="nav-fluid__Link">
