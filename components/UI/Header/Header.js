@@ -15,27 +15,18 @@ const Header = (props)=>{
                 <a className="nav-fluid__Link">
                     Agent
                 </a>
-                
-                
                 <a className="nav-fluid__Link">
                     Sell
                 </a>
-                
-                
                 <a className="nav-fluid__Link">
                     Manage Rentals
                 </a>
-                
-                
                 <a className="nav-fluid__Link">
                     Advertise
                 </a>
-                
-                
                 <a className="nav-fluid__Link">
                     Mortgage
                 </a>
-                
             </div>
             <div className="btn-fluid">
                 <a className="btn-fluid__log-in">Log In</a>
