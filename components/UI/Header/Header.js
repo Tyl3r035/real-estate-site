@@ -7,37 +7,37 @@ const Header = (props)=>{
                 Logo
             </div>
             <nav className="nav-fluid">
-                <Link href="/index">
+                <Link href="/">
                 <a className="nav-fluid__Link">
                     Buy
                 </a>
                 </Link>
-                <Link href="/index">
+                <Link href="/">
                 <a className="nav-fluid__Link">
                     Rent
                 </a>
                 </Link>
-                <Link href="/index">
+                <Link href="/">
                 <a className="nav-fluid__Link">
                     Agent
                 </a>
                 </Link>
-                <Link href="/index">
+                <Link href="/">
                 <a className="nav-fluid__Link">
                     Sell
                 </a>
                 </Link>
-                <Link href="/index">
+                <Link href="/">
                 <a className="nav-fluid__Link">
                     Manage Rentals
                 </a>
                 </Link>
-                <Link href="/index">
+                <Link href="/">
                 <a className="nav-fluid__Link">
                     Advertise
                 </a>
                 </Link>
-                <Link href="/index">
+                <Link href="/">
                 <a className="nav-fluid__Link">
                     Mortgage
                 </a>
