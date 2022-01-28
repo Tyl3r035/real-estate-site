@@ -1,4 +1,3 @@
-import Link from 'next/Link';
 
 const Header = (props)=>{
     return(
