@@ -4,9 +4,9 @@ const Header = (props)=>{
     return(
         <header id="header">
             <div className="logo">
-                <a href="/index">
-                    Logo
-                </a>
+                <Link href="/index">
+                    <a>Logo</a>
+                </Link>
             </div>
             <div className="nav-fluid">
                 <Link href="/buy">
