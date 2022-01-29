@@ -1,16 +1,19 @@
+import Link from 'next/link';
 
 const Header = (props)=>{
     return(
         <header id="header">
             <div className="logo">
-                <a href="/">
+                <a href="#">
                     Logo
                 </a>
             </div>
             <div className="nav-fluid">
-                <a href="/buy" className="nav-fluid__Link">
-                    Buy
-                </a>
+                <Link href="/buy">
+                    <a className="nav-fluid__Link">
+                        Buy
+                    </a>
+                </Link>
                 <a className="nav-fluid__Link">
                     Rent
                 </a>
