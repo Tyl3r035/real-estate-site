@@ -4,7 +4,7 @@ const Header = (props)=>{
     return(
         <header id="header">
             <div className="logo">
-                <a href="#">
+                <a href="/index">
                     Logo
                 </a>
             </div>
