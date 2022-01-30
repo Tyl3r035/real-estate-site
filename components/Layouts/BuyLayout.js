@@ -1,11 +1,13 @@
 import Header from "../UI/Header/Header";
-import TopSection from "../UI/TopSection/TopSection";
+import FilterSection from "../UI/FilterSection/FilterSection";
+import BuySection from '../UI/BuySection/BuySection';
 
 
 const BuyLayout = (props)=>{
 return(<div>
     <Header />
-    <TopSection />
+    <FilterSection />
+    <BuySection />
 </div>)
 }
 
