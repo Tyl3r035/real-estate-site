@@ -52,6 +52,7 @@
         border-radius: 25px;
         height: 40px;
         background: #fff;
+        margin: 0 10px;
     }
     &__search-input{
         font-size: .9rem;
@@ -87,9 +88,10 @@
 @media(max-width: 750px){
     .top-section{
         height: 500px;
-        &__buy{
-            background-size: cover;
-        }
+        background-size: 100%;
+        // &__buy{
+        //     background-size: cover;
+        // }
         &__dark-box{
             height: 500px;
         }
@@ -97,5 +99,10 @@
             font-size: 2rem;
             max-width: 300px;
         }
+    }
+}
+@media(max-width: 400px){
+    .top-section__search-input{
+        width: 70%;
     }
 }
