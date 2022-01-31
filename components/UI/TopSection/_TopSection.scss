@@ -75,7 +75,7 @@
         top: -1px;
         height: 42px;
         bottom: -1px;
-        right: -2px;
+        right: -3px;
         transition: background 0.4s;
         &:hover{
             background: rgb(126, 9, 12);
@@ -99,5 +99,10 @@
             font-size: 2rem;
             max-width: 300px;
         }
+    }
+}
+@media(max-width: 400px){
+    .top-section__search-input{
+        width: 80%;
     }
 }
