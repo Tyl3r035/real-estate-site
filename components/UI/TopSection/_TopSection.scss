@@ -88,10 +88,9 @@
 @media(max-width: 750px){
     .top-section{
         height: 500px;
-        background-size: 100%;
-        // &__buy{
-        //     background-size: cover;
-        // }
+        &__buy{
+            background-size: 100&;
+        }
         &__dark-box{
             height: 500px;
         }
