@@ -89,8 +89,7 @@
     .top-section{
         height: 500px;
         &__buy{
-            background-size: contain;
-            background-repeat: no-repeat;
+            background-size: auto 100%;
         }
         &__dark-box{
             height: 500px;
